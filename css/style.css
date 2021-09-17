@@ -1,0 +1,179 @@
+.nav-item {
+    margin-top: 5px;
+}
+
+.nav-item a:link  {
+    color: #4F474F;
+    font-family: Avenir;
+}
+  
+.nav-item a:hover  {
+    color: #DC5EB9;
+    font-family: Avenir;
+}
+
+.position-relative {
+    background-image: url(../images/hero1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#summary {
+    padding: 5%;
+    margin: 2px 2px 2px 2px;
+    font-family: Avenir;
+}
+
+#centreBackground {
+    padding: 3%;
+    margin: 2px 2px 2px 2px; 
+    background-color: #E2EDFF;
+    color: #4F474F;
+    height: 500px;
+    font-size: 24px;
+}
+
+.display-4 {
+    font-size: 38px;
+    font-family: 'Yeseva One', cursive;
+    color: #ffffff;
+}
+
+.lead {
+    font-size: 16px;
+    padding: 2%;
+    font-family: Avenir;
+}
+
+#space {
+    padding: 5%;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+    font-family: Avenir;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+.researchTitles {
+    font-size: 26px;
+    padding: 5%;
+    font-family: Avenir;
+}
+  
+.researchDescriptions {
+    font-family: Avenir;
+}
+
+.display-5 {
+    font-family: 'Yeseva One', cursive;
+}
+
+.fs-5 {
+    font-family: Avenir;
+    color: #ffffff;
+}
+
+.bg-dark {
+    color: #FFFFFF;
+}
+
+.bg-green {
+    background-color: #00CDC9;
+}
+
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+
+#freepik {
+    font-size: 8px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+.footerContainer {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+}
+  
+footer {
+    background-color: #130048;
+    padding: 2%;
+    color: #FFFFFF;
+    height: 250px;
+    font-family: Avenir;
+}
+  
+.footerList {
+    list-style: none;
+}
+  
+#footerLogo {
+    width: 35%;
+    padding: 5%;
+    margin-left: 25px;
+}
+  
+#copyright {
+    padding: 5%;
+    margin-left: 45px;
+}
+  
+#footerCentre {
+    padding: 5%;
+    margin-top: 33px;
+    font-size: 18px;
+}
+  
+footer a:link  {
+    color: #ffffff;
+}
+  
+footer li a:hover  {
+    color: #00CDC9; 
+}
+  
+#footerEmail {
+    font-size: 22px;
+    margin-top: 35px;
+    padding: 1%;
+    text-decoration: underline;
+}
+  
+.footerIcons {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+    padding: 15%;
+}
+  
+.footerIcons img {
+    height: 55px;
+    width: 55px;
+}
